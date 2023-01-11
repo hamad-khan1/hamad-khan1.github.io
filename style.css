@@ -82,7 +82,9 @@
 
   main{
     display:grid;
-    width: 100%;
+    margin: 100px auto;
+    max-width: 55vw;
+    background-color: aliceblue;
     font-family: var(--ff-body);
     overflow: hidden;
     border-radius: 0.3rem;
@@ -173,6 +175,7 @@
 .art-3 > h3{
  margin: 12px;
  font-size: var(--fs-550);
+ 
   
 }
 .art-3 > pre{
@@ -180,7 +183,7 @@
   font-size: var(--fs-400);
 }
 
-@media only screen and (min-width: 675px) {
+@media only screen and (min-width: 975px) {
   main{
     display: grid;
     grid-template-areas: 
